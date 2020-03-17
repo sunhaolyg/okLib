@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BottomNavigationBar -->
+    <dimen name="fixed_height">60dp</dimen>
+    <!--未选中 toppadding-->
+    <dimen name="fixed_height_top_padding_inactive">4dp</dimen>
+    <!--选中 toppadding-->
+    <dimen name="fixed_height_top_padding_active">2dp</dimen>
+    <!--底部 padding-->
+    <dimen name="fixed_height_bottom_padding">5dp</dimen>
+    <dimen name="bottom_navigation_height">60dp</dimen>
+    <!--选中文字大小-->
+    <dimen name="fixed_label_active">14dp</dimen>
+    <!--未选中文字大小-->
+    <dimen name="fixed_label_inactive">14dp</dimen>
+    <!--图片大小-->
+    <dimen name="fixed_icon_grid">24dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_55">55dp</dimen>
+    <dimen name="dp_22">22dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+
+
+</resources>

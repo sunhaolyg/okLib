@@ -8,4 +8,39 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="ActionBarView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ActionBarView.LinearLayout">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <style name="ActionBarView.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/dp_20</item>
+    </style>
+
+    <style name="ActionBarView.ImageView"></style>
+
+    <style name="Line">
+        <item name="android:background">@color/grayc</item>
+    </style>
+
+    <style name="Line.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+    </style>
+
+    <style name="Line.Vertical">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
 </resources>

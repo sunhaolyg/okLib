@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sh.oklib.widget.ActionBarView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_bar"
+    android:background="@color/color_action_bg"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <LinearLayout
+        android:id="@+id/left"
+        android:layout_alignParentLeft="true"
+        style="@style/ActionBarView.LinearLayout">
+
+        <ImageView
+            android:id="@+id/left_iv"
+            style="@style/ActionBarView.ImageView" />
+
+        <TextView
+            android:id="@+id/left_tv"
+            style="@style/ActionBarView.TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/center"
+        android:layout_centerInParent="true"
+        style="@style/ActionBarView.LinearLayout">
+
+    <ImageView
+            android:id="@+id/center_iv"
+            style="@style/ActionBarView.ImageView" />
+
+        <TextView
+            android:id="@+id/center_tv"
+            android:textSize="@dimen/dp_20"
+            style="@style/ActionBarView.TextView" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/right"
+        android:layout_alignParentRight="true"
+        style="@style/ActionBarView.LinearLayout">
+
+
+    <ImageView
+            android:id="@+id/right_iv"
+            style="@style/ActionBarView.ImageView" />
+
+        <TextView
+            android:id="@+id/right_tv"
+            android:textSize="14dp"
+            style="@style/ActionBarView.TextView" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/action_bar_split"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="#999999" />
+
+</com.sh.oklib.widget.ActionBarView>
