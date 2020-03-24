@@ -5,6 +5,10 @@
     <color name="colorAccent">#D81B60</color>
     <color name="white">#ffffff</color>
     <color name="grayc">#cccccc</color>
+    <color name="gray5">#555555</color>
+    <color name="black">#000</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#0000ff</color>
     <color name="color_action_bg">@color/colorPrimary</color>
     <color name="color_status_bar">@color/colorPrimary</color>
 </resources>

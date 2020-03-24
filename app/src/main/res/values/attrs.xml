@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ShapeRound">
+        <attr name="round_stroke_color" format="color" />
+        <attr name="round_radius" format="dimension" />
+        <attr name="round_stroke_width" format="dimension" />
+        <attr name="round_solid" format="color" />
+
+    </declare-styleable>
+
+    <declare-styleable name="Ripple">
+        <attr name="ripple_single_color" format="color" />
+
+    </declare-styleable>
+
+</resources>
